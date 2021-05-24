@@ -93,9 +93,28 @@
       font-size: 20px;
       margin: 0 auto;
       text-align: center;
-      
   }
-
+  .contact {
+      line-height: 1.7;
+      color: #00fafa;
+      width: 80%;
+      font-size: 20px;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .contact div {
+    width: 55%;
+    margin: 10px auto 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #00fafa;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    background:rgba(0, 225, 255, 0.6);
+    border-bottom: 3px solid;
+  }
+  
   .section-title {
       font-size: 48px;
       color:#00fafa;
@@ -129,8 +148,4 @@
   .project img {
       width:100%;
       border-radius: 20px;
-  }
-  .project2 {
-      margin: 10px;
-      background:rgb(0, 0, 0)
   }
